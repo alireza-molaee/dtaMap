@@ -1,0 +1,1003 @@
+[
+  {
+    "lat": "35.73514167",
+    "cells": [
+      {
+        "azimuth": "20",
+        "color": "#8b0000",
+        "beamwidth": "65",
+        "cell_id": "174",
+        "cell_name": "UT1046XA2"
+      },
+      {
+        "azimuth": "150",
+        "color": "#9400d3",
+        "beamwidth": "65",
+        "cell_id": "220",
+        "cell_name": "UT1046XB2"
+      },
+      {
+        "azimuth": "260",
+        "color": "#ffd700",
+        "beamwidth": "65",
+        "cell_id": "221",
+        "cell_name": "UT1046XC2"
+      }
+    ],
+    "site_name": "UT1046",
+    "long": "51.118225"
+  },
+  {
+    "lat": "35.73055556",
+    "cells": [
+      {
+        "azimuth": "30",
+        "color": "#4b0082",
+        "beamwidth": "65",
+        "cell_id": "47",
+        "cell_name": "UT1047XA2"
+      },
+      {
+        "azimuth": "110",
+        "color": "#add8e6",
+        "beamwidth": "65",
+        "cell_id": "48",
+        "cell_name": "UT1047XB2"
+      },
+      {
+        "azimuth": "180",
+        "color": "#90ee90",
+        "beamwidth": "65",
+        "cell_id": "58",
+        "cell_name": "UT1047XC2"
+      }
+    ],
+    "site_name": "UT1047",
+    "long": "51.155"
+  },
+  {
+    "lat": "35.71475",
+    "cells": [
+      {
+        "azimuth": "60",
+        "color": "#ffb6c1",
+        "beamwidth": "65",
+        "cell_id": "354",
+        "cell_name": "UT1048XA2"
+      },
+      {
+        "azimuth": "180",
+        "color": "#00ffff",
+        "beamwidth": "65",
+        "cell_id": "62",
+        "cell_name": "UT1048XB2"
+      },
+      {
+        "azimuth": "280",
+        "color": "#f5f5dc",
+        "beamwidth": "65",
+        "cell_id": "63",
+        "cell_name": "UT1048XC2"
+      }
+    ],
+    "site_name": "UT1048",
+    "long": "51.16310556"
+  },
+  {
+    "lat": "35.74194444",
+    "cells": [
+      {
+        "azimuth": "75",
+        "color": "#0000ff",
+        "beamwidth": "65",
+        "cell_id": "42",
+        "cell_name": "UT1176XA2"
+      },
+      {
+        "azimuth": "180",
+        "color": "#00ffff",
+        "beamwidth": "65",
+        "cell_id": "186",
+        "cell_name": "UT1176XB2"
+      },
+      {
+        "azimuth": "310",
+        "color": "#008b8b",
+        "beamwidth": "65",
+        "cell_id": "499",
+        "cell_name": "UT1176XC2"
+      }
+    ],
+    "site_name": "UT1176",
+    "long": "51.135"
+  },
+  {
+    "lat": "35.72694444",
+    "cells": [
+      {
+        "azimuth": "60",
+        "color": "#006400",
+        "beamwidth": "65",
+        "cell_id": "214",
+        "cell_name": "UT1177XA2"
+      },
+      {
+        "azimuth": "180",
+        "color": "#8b008b",
+        "beamwidth": "65",
+        "cell_id": "215",
+        "cell_name": "UT1177XB2"
+      },
+      {
+        "azimuth": "280",
+        "color": "#ff8c00",
+        "beamwidth": "65",
+        "cell_id": "144",
+        "cell_name": "UT1177XC2"
+      }
+    ],
+    "site_name": "UT1177",
+    "long": "51.13638889"
+  },
+  {
+    "lat": "35.7231",
+    "cells": [
+      {
+        "azimuth": "30",
+        "color": "#8b0000",
+        "beamwidth": "65",
+        "cell_id": "229",
+        "cell_name": "UT1178XA2"
+      },
+      {
+        "azimuth": "160",
+        "color": "#9400d3",
+        "beamwidth": "65",
+        "cell_id": "230",
+        "cell_name": "UT1178XB2"
+      },
+      {
+        "azimuth": "250",
+        "color": "#ffd700",
+        "beamwidth": "65",
+        "cell_id": "353",
+        "cell_name": "UT1178XC2"
+      }
+    ],
+    "site_name": "UT1178",
+    "long": "51.179"
+  },
+  {
+    "lat": "35.73308056",
+    "cells": [
+      {
+        "azimuth": "90",
+        "color": "#8b0000",
+        "beamwidth": "65",
+        "cell_id": "289",
+        "cell_name": "UT3556XA2"
+      },
+      {
+        "azimuth": "180",
+        "color": "#9400d3",
+        "beamwidth": "65",
+        "cell_id": "290",
+        "cell_name": "UT3556XB2"
+      },
+      {
+        "azimuth": "310",
+        "color": "#ffd700",
+        "beamwidth": "65",
+        "cell_id": "173",
+        "cell_name": "UT3556XC2"
+      }
+    ],
+    "site_name": "UT3556",
+    "long": "51.13166667"
+  },
+  {
+    "lat": "35.7272",
+    "cells": [
+      {
+        "azimuth": "40",
+        "color": "#f0ffff",
+        "beamwidth": "65",
+        "cell_id": "150",
+        "cell_name": "UT3467XA2"
+      },
+      {
+        "azimuth": "170",
+        "color": "#000000",
+        "beamwidth": "65",
+        "cell_id": "151",
+        "cell_name": "UT3467XB2"
+      },
+      {
+        "azimuth": "290",
+        "color": "#a52a2a",
+        "beamwidth": "65",
+        "cell_id": "152",
+        "cell_name": "UT3467XC2"
+      }
+    ],
+    "site_name": "UT3467",
+    "long": "51.10459722"
+  },
+  {
+    "lat": "35.70794167",
+    "cells": [
+      {
+        "azimuth": "320",
+        "color": "#556b2f",
+        "beamwidth": "65",
+        "cell_id": "97",
+        "cell_name": "UT1782XA2"
+      },
+      {
+        "azimuth": "120",
+        "color": "#9932cc",
+        "beamwidth": "65",
+        "cell_id": "98",
+        "cell_name": "UT1782XB2"
+      },
+      {
+        "azimuth": "210",
+        "color": "#e9967a",
+        "beamwidth": "65",
+        "cell_id": "99",
+        "cell_name": "UT1782XC2"
+      }
+    ],
+    "site_name": "UT1782",
+    "long": "51.12461389"
+  },
+  {
+    "lat": "35.71589167",
+    "cells": [
+      {
+        "azimuth": "60",
+        "color": "#00008b",
+        "beamwidth": "65",
+        "cell_id": "88",
+        "cell_name": "UT1779XA2"
+      },
+      {
+        "azimuth": "170",
+        "color": "#a9a9a9",
+        "beamwidth": "65",
+        "cell_id": "89",
+        "cell_name": "UT1779XB2"
+      },
+      {
+        "azimuth": "280",
+        "color": "#bdb76b",
+        "beamwidth": "65",
+        "cell_id": "90",
+        "cell_name": "UT1779XC2"
+      }
+    ],
+    "site_name": "UT1779",
+    "long": "51.11871667"
+  },
+  {
+    "lat": "35.709445",
+    "cells": [
+      {
+        "azimuth": "80",
+        "color": "#556b2f",
+        "beamwidth": "65",
+        "cell_id": "139",
+        "cell_name": "UT2838XA2"
+      },
+      {
+        "azimuth": "200",
+        "color": "#9932cc",
+        "beamwidth": "65",
+        "cell_id": "140",
+        "cell_name": "UT2838XB2"
+      },
+      {
+        "azimuth": "300",
+        "color": "#e9967a",
+        "beamwidth": "65",
+        "cell_id": "141",
+        "cell_name": "UT2838XC2"
+      }
+    ],
+    "site_name": "UT2838",
+    "long": "51.116276"
+  },
+  {
+    "lat": "35.6874",
+    "cells": [
+      {
+        "azimuth": "50",
+        "color": "#008000",
+        "beamwidth": "65",
+        "cell_id": "195",
+        "cell_name": "UT6535XA2"
+      },
+      {
+        "azimuth": "190",
+        "color": "#f0e68c",
+        "beamwidth": "65",
+        "cell_id": "196",
+        "cell_name": "UT6535XB2"
+      },
+      {
+        "azimuth": "300",
+        "color": "#e0ffff",
+        "beamwidth": "65",
+        "cell_id": "197",
+        "cell_name": "UT6535XC2"
+      }
+    ],
+    "site_name": "UT6535",
+    "long": "51.13188"
+  },
+  {
+    "lat": "35.71566667",
+    "cells": [
+      {
+        "azimuth": "50",
+        "color": "#008000",
+        "beamwidth": "65",
+        "cell_id": "166",
+        "cell_name": "UT3696XA2"
+      },
+      {
+        "azimuth": "180",
+        "color": "#f0e68c",
+        "beamwidth": "65",
+        "cell_id": "167",
+        "cell_name": "UT3696XB2"
+      },
+      {
+        "azimuth": "290",
+        "color": "#e0ffff",
+        "beamwidth": "65",
+        "cell_id": "168",
+        "cell_name": "UT3696XC2"
+      }
+    ],
+    "site_name": "UT3696",
+    "long": "51.11327778"
+  },
+  {
+    "lat": "35.71361111",
+    "cells": [
+      {
+        "azimuth": "50",
+        "color": "#a9a9a9",
+        "beamwidth": "65",
+        "cell_id": "100",
+        "cell_name": "UT1783XA2"
+      },
+      {
+        "azimuth": "180",
+        "color": "#bdb76b",
+        "beamwidth": "65",
+        "cell_id": "101",
+        "cell_name": "UT1783XB2"
+      },
+      {
+        "azimuth": "300",
+        "color": "#556b2f",
+        "beamwidth": "65",
+        "cell_id": "102",
+        "cell_name": "UT1783XC2"
+      }
+    ],
+    "site_name": "UT1783",
+    "long": "51.10916667"
+  },
+  {
+    "lat": "35.754229",
+    "cells": [
+      {
+        "azimuth": "90",
+        "color": "#008000",
+        "beamwidth": "65",
+        "cell_id": "384",
+        "cell_name": "UT6953XA2"
+      },
+      {
+        "azimuth": "205",
+        "color": "#f0e68c",
+        "beamwidth": "65",
+        "cell_id": "392",
+        "cell_name": "UT6953XB2"
+      }
+    ],
+    "site_name": "UT6953",
+    "long": "51.108009"
+  },
+  {
+    "lat": "35.72191667",
+    "cells": [
+      {
+        "azimuth": "100",
+        "color": "#000000",
+        "beamwidth": "65",
+        "cell_id": "169",
+        "cell_name": "UT3697XA2"
+      },
+      {
+        "azimuth": "200",
+        "color": "#00008b",
+        "beamwidth": "65",
+        "cell_id": "170",
+        "cell_name": "UT3697XB2"
+      },
+      {
+        "azimuth": "320",
+        "color": "#bdb76b",
+        "beamwidth": "65",
+        "cell_id": "171",
+        "cell_name": "UT3697XC2"
+      }
+    ],
+    "site_name": "UT3697",
+    "long": "51.10744167"
+  },
+  {
+    "lat": "35.75352778",
+    "cells": [
+      {
+        "azimuth": "60",
+        "color": "#ff00ff",
+        "beamwidth": "65",
+        "cell_id": "495",
+        "cell_name": "UT3505XA2"
+      },
+      {
+        "azimuth": "210",
+        "color": "#008000",
+        "beamwidth": "65",
+        "cell_id": "496",
+        "cell_name": "UT3505XB2"
+      },
+      {
+        "azimuth": "310",
+        "color": "#f0e68c",
+        "beamwidth": "65",
+        "cell_id": "497",
+        "cell_name": "UT3505XC2"
+      }
+    ],
+    "site_name": "UT3505",
+    "long": "51.15610834"
+  },
+  {
+    "lat": "35.72896944",
+    "cells": [
+      {
+        "azimuth": "90",
+        "color": "#556b2f",
+        "beamwidth": "65",
+        "cell_id": "103",
+        "cell_name": "UT1784XA2"
+      },
+      {
+        "azimuth": "195",
+        "color": "#9932cc",
+        "beamwidth": "65",
+        "cell_id": "104",
+        "cell_name": "UT1784XB2"
+      },
+      {
+        "azimuth": "300",
+        "color": "#e9967a",
+        "beamwidth": "65",
+        "cell_id": "105",
+        "cell_name": "UT1784XC2"
+      }
+    ],
+    "site_name": "UT1784",
+    "long": "51.09955278"
+  },
+  {
+    "lat": "35.70439444",
+    "cells": [
+      {
+        "azimuth": "70",
+        "color": "#bdb76b",
+        "beamwidth": "65",
+        "cell_id": "76",
+        "cell_name": "UT1775XA2"
+      },
+      {
+        "azimuth": "185",
+        "color": "#556b2f",
+        "beamwidth": "65",
+        "cell_id": "77",
+        "cell_name": "UT1775XB2"
+      },
+      {
+        "azimuth": "320",
+        "color": "#9932cc",
+        "beamwidth": "65",
+        "cell_id": "78",
+        "cell_name": "UT1775XC2"
+      }
+    ],
+    "site_name": "UT1775",
+    "long": "51.11513333"
+  },
+  {
+    "lat": "35.71855556",
+    "cells": [
+      {
+        "azimuth": "30",
+        "color": "#8b008b",
+        "beamwidth": "65",
+        "cell_id": "175",
+        "cell_name": "UT3698XA2"
+      },
+      {
+        "azimuth": "120",
+        "color": "#8b0000",
+        "beamwidth": "65",
+        "cell_id": "176",
+        "cell_name": "UT3698XB2"
+      },
+      {
+        "azimuth": "250",
+        "color": "#ff00ff",
+        "beamwidth": "65",
+        "cell_id": "177",
+        "cell_name": "UT3698XC2"
+      }
+    ],
+    "site_name": "UT3698",
+    "long": "51.09608056"
+  },
+  {
+    "lat": "35.71386667",
+    "cells": [
+      {
+        "azimuth": "75",
+        "color": "#f0ffff",
+        "beamwidth": "65",
+        "cell_id": "106",
+        "cell_name": "UT1785XA2"
+      },
+      {
+        "azimuth": "185",
+        "color": "#000000",
+        "beamwidth": "65",
+        "cell_id": "107",
+        "cell_name": "UT1785XB2"
+      },
+      {
+        "azimuth": "300",
+        "color": "#a52a2a",
+        "beamwidth": "65",
+        "cell_id": "108",
+        "cell_name": "UT1785XC2"
+      }
+    ],
+    "site_name": "UT1785",
+    "long": "51.09958889"
+  },
+  {
+    "lat": "35.69461389",
+    "cells": [
+      {
+        "azimuth": "50",
+        "color": "#e0ffff",
+        "beamwidth": "65",
+        "cell_id": "79",
+        "cell_name": "UT1776XA2"
+      },
+      {
+        "azimuth": "165",
+        "color": "#d3d3d3",
+        "beamwidth": "65",
+        "cell_id": "80",
+        "cell_name": "UT1776XB2"
+      },
+      {
+        "azimuth": "300",
+        "color": "#ffffe0",
+        "beamwidth": "65",
+        "cell_id": "81",
+        "cell_name": "UT1776XC2"
+      }
+    ],
+    "site_name": "UT1776",
+    "long": "51.12021667"
+  },
+  {
+    "lat": "35.72438333",
+    "cells": [
+      {
+        "azimuth": "60",
+        "color": "#f0ffff",
+        "beamwidth": "65",
+        "cell_id": "130",
+        "cell_name": "UT2835XA2"
+      },
+      {
+        "azimuth": "195",
+        "color": "#000000",
+        "beamwidth": "65",
+        "cell_id": "131",
+        "cell_name": "UT2835XB2"
+      },
+      {
+        "azimuth": "295",
+        "color": "#a52a2a",
+        "beamwidth": "65",
+        "cell_id": "132",
+        "cell_name": "UT2835XC2"
+      }
+    ],
+    "site_name": "UT2835",
+    "long": "51.09413333"
+  },
+  {
+    "lat": "35.72666667",
+    "cells": [
+      {
+        "azimuth": "70",
+        "color": "#8b008b",
+        "beamwidth": "65",
+        "cell_id": "198",
+        "cell_name": "UT6728XA2"
+      },
+      {
+        "azimuth": "170",
+        "color": "#ff8c00",
+        "beamwidth": "65",
+        "cell_id": "199",
+        "cell_name": "UT6728XB2"
+      },
+      {
+        "azimuth": "275",
+        "color": "#8b0000",
+        "beamwidth": "65",
+        "cell_id": "200",
+        "cell_name": "UT6728XC2"
+      }
+    ],
+    "site_name": "UT6728",
+    "long": "51.12391667"
+  },
+  {
+    "lat": "35.740037",
+    "cells": [
+      {
+        "azimuth": "80",
+        "color": "#9400d3",
+        "beamwidth": "65",
+        "cell_id": "157",
+        "cell_name": "UT1179XA2"
+      },
+      {
+        "azimuth": "170",
+        "color": "#4b0082",
+        "beamwidth": "65",
+        "cell_id": "202",
+        "cell_name": "UT1179XB2"
+      },
+      {
+        "azimuth": "310",
+        "color": "#90ee90",
+        "beamwidth": "65",
+        "cell_id": "323",
+        "cell_name": "UT1179XC2"
+      }
+    ],
+    "site_name": "UT1179",
+    "long": "51.096688"
+  },
+  {
+    "lat": "35.71675",
+    "cells": [
+      {
+        "azimuth": "45",
+        "color": "red",
+        "beamwidth": "65",
+        "cell_id": "178",
+        "cell_name": "UT3716XA2"
+      },
+      {
+        "azimuth": "180",
+        "color": "yellow",
+        "beamwidth": "65",
+        "cell_id": "179",
+        "cell_name": "UT3716XB2"
+      },
+      {
+        "azimuth": "310",
+        "color": "green",
+        "beamwidth": "65",
+        "cell_id": "180",
+        "cell_name": "UT3716XC2"
+      }
+    ],
+    "site_name": "UT3716",
+    "long": "51.10453"
+  },
+  {
+    "lat": "35.72666667",
+    "cells": [
+      {
+        "azimuth": "65",
+        "color": "#00ffff",
+        "beamwidth": "65",
+        "cell_id": "91",
+        "cell_name": "UT1780XA2"
+      },
+      {
+        "azimuth": "125",
+        "color": "#f5f5dc",
+        "beamwidth": "65",
+        "cell_id": "92",
+        "cell_name": "UT1780XB2"
+      },
+      {
+        "azimuth": "350",
+        "color": "#0000ff",
+        "beamwidth": "65",
+        "cell_id": "93",
+        "cell_name": "UT1780XC2"
+      }
+    ],
+    "site_name": "UT1780",
+    "long": "51.10972222"
+  },
+  {
+    "lat": "35.708476",
+    "cells": [
+      {
+        "azimuth": "0",
+        "color": "#9400d3",
+        "beamwidth": "65",
+        "cell_id": "463",
+        "cell_name": "UN4017XA2"
+      },
+      {
+        "azimuth": "120",
+        "color": "#ffd700",
+        "beamwidth": "65",
+        "cell_id": "471",
+        "cell_name": "UN4017XB2"
+      },
+      {
+        "azimuth": "230",
+        "color": "#4b0082",
+        "beamwidth": "65",
+        "cell_id": "479",
+        "cell_name": "UN4017XC2"
+      }
+    ],
+    "site_name": "UN4017",
+    "long": "51.109578"
+  },
+  {
+    "lat": "35.72869167",
+    "cells": [
+      {
+        "azimuth": "65",
+        "color": "#add8e6",
+        "beamwidth": "65",
+        "cell_id": "189",
+        "cell_name": "UT3799XA2"
+      },
+      {
+        "azimuth": "140",
+        "color": "#90ee90",
+        "beamwidth": "65",
+        "cell_id": "193",
+        "cell_name": "UT3799XB2"
+      },
+      {
+        "azimuth": "275",
+        "color": "#ffb6c1",
+        "beamwidth": "65",
+        "cell_id": "194",
+        "cell_name": "UT3799XC2"
+      }
+    ],
+    "site_name": "UT3799",
+    "long": "51.11471667"
+  },
+  {
+    "lat": "35.71946667",
+    "cells": [
+      {
+        "azimuth": "80",
+        "color": "#4b0082",
+        "beamwidth": "65",
+        "cell_id": "82",
+        "cell_name": "UT1777XA2"
+      },
+      {
+        "azimuth": "115",
+        "color": "#add8e6",
+        "beamwidth": "65",
+        "cell_id": "83",
+        "cell_name": "UT1777XB2"
+      },
+      {
+        "azimuth": "325",
+        "color": "#90ee90",
+        "beamwidth": "65",
+        "cell_id": "84",
+        "cell_name": "UT1777XC2"
+      }
+    ],
+    "site_name": "UT1777",
+    "long": "51.11163056"
+  },
+  {
+    "lat": "35.70929722",
+    "cells": [
+      {
+        "azimuth": "40",
+        "color": "#ffb6c1",
+        "beamwidth": "65",
+        "cell_id": "133",
+        "cell_name": "UT2836XA2"
+      },
+      {
+        "azimuth": "190",
+        "color": "#00ffff",
+        "beamwidth": "65",
+        "cell_id": "134",
+        "cell_name": "UT2836XB2"
+      },
+      {
+        "azimuth": "305",
+        "color": "#f5f5dc",
+        "beamwidth": "65",
+        "cell_id": "135",
+        "cell_name": "UT2836XC2"
+      }
+    ],
+    "site_name": "UT2836",
+    "long": "51.10459722"
+  },
+  {
+    "lat": "35.70858333",
+    "cells": [
+      {
+        "azimuth": "95",
+        "color": "#4b0082",
+        "beamwidth": "65",
+        "cell_id": "183",
+        "cell_name": "UT3717XA2"
+      },
+      {
+        "azimuth": "185",
+        "color": "#add8e6",
+        "beamwidth": "65",
+        "cell_id": "187",
+        "cell_name": "UT3717XB2"
+      },
+      {
+        "azimuth": "330",
+        "color": "#90ee90",
+        "beamwidth": "65",
+        "cell_id": "188",
+        "cell_name": "UT3717XC2"
+      }
+    ],
+    "site_name": "UT3717",
+    "long": "51.14052778"
+  },
+  {
+    "lat": "35.74383889",
+    "cells": [
+      {
+        "azimuth": "80",
+        "color": "#ffffe0",
+        "beamwidth": "65",
+        "cell_id": "110",
+        "cell_name": "UT1563XA2"
+      },
+      {
+        "azimuth": "185",
+        "color": "#f0ffff",
+        "beamwidth": "65",
+        "cell_id": "111",
+        "cell_name": "UT1563XB2"
+      },
+      {
+        "azimuth": "300",
+        "color": "#000000",
+        "beamwidth": "65",
+        "cell_id": "115",
+        "cell_name": "UT1563XC2"
+      }
+    ],
+    "site_name": "UT1563",
+    "long": "51.16183611"
+  },
+  {
+    "lat": "35.72197778",
+    "cells": [
+      {
+        "azimuth": "75",
+        "color": "#a52a2a",
+        "beamwidth": "65",
+        "cell_id": "85",
+        "cell_name": "UT1778XA2"
+      },
+      {
+        "azimuth": "220",
+        "color": "#00008b",
+        "beamwidth": "65",
+        "cell_id": "86",
+        "cell_name": "UT1778XB2"
+      },
+      {
+        "azimuth": "330",
+        "color": "#a9a9a9",
+        "beamwidth": "65",
+        "cell_id": "87",
+        "cell_name": "UT1778XC2"
+      }
+    ],
+    "site_name": "UT1778",
+    "long": "51.10214444"
+  },
+  {
+    "lat": "35.72027778",
+    "cells": [
+      {
+        "azimuth": "30",
+        "color": "#e9967a",
+        "beamwidth": "65",
+        "cell_id": "136",
+        "cell_name": "UT2837XA2"
+      },
+      {
+        "azimuth": "170",
+        "color": "#ff00ff",
+        "beamwidth": "65",
+        "cell_id": "137",
+        "cell_name": "UT2837XB2"
+      },
+      {
+        "azimuth": "310",
+        "color": "#008000",
+        "beamwidth": "65",
+        "cell_id": "138",
+        "cell_name": "UT2837XC2"
+      }
+    ],
+    "site_name": "UT2837",
+    "long": "51.12450278"
+  },
+  {
+    "lat": "35.7277",
+    "cells": [
+      {
+        "azimuth": "60",
+        "color": "#d3d3d3",
+        "beamwidth": "65",
+        "cell_id": "437",
+        "cell_name": "UT6913XA2"
+      },
+      {
+        "azimuth": "240",
+        "color": "#ffffe0",
+        "beamwidth": "65",
+        "cell_id": "445",
+        "cell_name": "UT6913XB2"
+      },
+      {
+        "azimuth": "300",
+        "color": "#f0ffff",
+        "beamwidth": "65",
+        "cell_id": "453",
+        "cell_name": "UT6913XC2"
+      }
+    ],
+    "site_name": "UT6913",
+    "long": "51.17995"
+  }
+]

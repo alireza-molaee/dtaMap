@@ -1,0 +1,655 @@
+
+{
+  "2G": [
+    [
+      "Event",
+      "Event",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ],
+    [
+      "EventInfo",
+      "EventInfo",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ],
+    [
+      "All-RxQual Sub",
+      "RxQual Sub",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ],
+    [
+      "All-BSIC",
+      "BSIC",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ],
+    [
+      "All-ARFCN BCCH",
+      "ARFCN BCCH",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ],
+    [
+      "All-TA",
+      "TA",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ],
+    [
+      "All-Cell Id",
+      "Cell Id",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ],
+    [
+      "All-LLC Throughput DL (kbit/s)",
+      "LLC Throughput DL (kbit/s)",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ],
+    [
+      "All-LLC Throughput UL (kbit/s)",
+      "LLC Throughput UL (kbit/s)",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ],
+    [
+      "All-RLC Throughput DL (kbit/s)",
+      "RLC Throughput DL (kbit/s)",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ],
+    [
+      "All-RLC Throughput UL (kbit/s)",
+      "RLC Throughput UL (kbit/s)",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ],
+    [
+      "All-Current CS DL",
+      "Current CS DL",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ],
+    [
+      "All-Current MCS DL",
+      "Current MCS DL",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ],
+    [
+      "All-Data Mode",
+      "Data Mod",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ],
+    [
+      "All-Technology Mode",
+      "Technology Mod",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ],
+    [
+      "All-SQI",
+      "SQI",
+      [
+        {
+          "color": "#00B050",
+          "range_max": "2",
+          "range_min": "-1"
+        },
+        {
+          "color": "#00FF00",
+          "range_max": "4",
+          "range_min": "2"
+        },
+        {
+          "color": "#66FFCC",
+          "range_max": "6",
+          "range_min": "4"
+        },
+        {
+          "color": "#FFFF00",
+          "range_max": "8",
+          "range_min": "6"
+        },
+        {
+          "color": "#FFC000",
+          "range_max": "10",
+          "range_min": "8"
+        },
+        {
+          "color": "#FF0000",
+          "range_max": "12",
+          "range_min": "10"
+        }
+      ]
+    ]
+  ],
+  "3G": [
+    [
+      "All-Serving CPICH RSCP",
+      "As CPICH RSCP[1]",
+      [
+        {
+          "color": "#000000",
+          "range_max": "-112",
+          "range_min": "-200"
+        },
+        {
+          "color": "#979797",
+          "range_max": "-105",
+          "range_min": "-112"
+        },
+        {
+          "color": "#66ff66",
+          "range_max": "-99",
+          "range_min": "-105"
+        },
+        {
+          "color": "#ffff00",
+          "range_max": "-90",
+          "range_min": "-99"
+        },
+        {
+          "color": "#ff9966",
+          "range_max": "-83",
+          "range_min": "-90"
+        },
+        {
+          "color": "#ff0000",
+          "range_max": "-75",
+          "range_min": "-83"
+        },
+        {
+          "color": "#993399",
+          "range_max": "0",
+          "range_min": "-75"
+        }
+      ]
+    ],
+    [
+      "All-Serving CPICH Ec/No",
+      "AS CPICH Ec/No[1]",
+      [
+        {
+          "range_min": "-30",
+          "range_max": "-18",
+          "color": "#0080c0"
+        },
+        {
+          "range_min": "-18",
+          "range_max": "-12",
+          "color": "#00ffff"
+        },
+        {
+          "range_min": "-12",
+          "range_max": "-10",
+          "color": "#00ff00"
+        },
+        {
+          "range_min": "-10",
+          "range_max": "-8",
+          "color": "#ffff00"
+        },
+        {
+          "range_min": "-8",
+          "range_max": "0",
+          "color": "#ff0000"
+        }
+      ]
+    ]
+  ]
+}
