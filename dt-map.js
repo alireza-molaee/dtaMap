@@ -24,7 +24,9 @@ var dtaMap = (function() {
 
         this.initGoogleMap();
         this.initOpenLayer();
+        this.initPoints();
         this.initSites();
+        this.initPopup();
 
     }
 
@@ -42,7 +44,7 @@ var dtaMap = (function() {
     dtaMap.prototype.initOpenLayer = function () {
         var openlayerDiv;
 
-        $(this.container).append('<div id="dtaMap-openLayerMap" style="height: 100%;width: 100%;"></div>');
+        $(this.container).append('<div id="dtaMap-openLayerMap" style="height: 100%;width: 100%;position: relative;"></div>');
 
         openlayerDiv = document.getElementById('dtaMap-openLayerMap');
 
@@ -85,6 +87,14 @@ var dtaMap = (function() {
         this.setExtent(this.extent);
     };
 
+    dtaMap.prototype.initPoints = function () {
+        this.points = {
+            mapIndex: {}
+        };
+        this.points.layers = new ol.layer.Group();
+        this.openlayer.map.addLayer(this.points.layers);
+    };
+
     dtaMap.prototype.initSites = function () {
         var radius = this.sites.radius;
         this.sites.cells.olSource = new ol.source.Vector();
@@ -124,6 +134,40 @@ var dtaMap = (function() {
 
         this.openlayer.map.addLayer(this.sites.cells.olLayer);
         this.openlayer.map.addLayer(this.sites.name.olLayer);
+    };
+
+    dtaMap.prototype.initPopup = function () {
+        var element, popup;
+        $(this.container).append('<div id="dtaMap-popup"></div>');
+        element = document.getElementById('dtaMap-popup');
+        popup = new ol.Overlay({
+            element: element,
+            positioning: 'bottom-center',
+            stopEvent: false,
+            offset: [0, -50]
+        });
+
+        this.openlayer.map.addOverlay(popup);
+        this.openlayer.map.on('click', function (event) {
+            var feature = this.openlayer.map.forEachFeatureAtPixel(event.pixel,
+                function(feature) {
+                    return feature;
+                });
+
+            if (feature) {
+                console.log('asd')
+                var coordinates = feature.getGeometry().getCoordinates();
+                popup.setPosition(coordinates);
+                $(element).popover({
+                    'placement': 'top',
+                    'html': true,
+                    'content': 'asdasd'
+                });
+                $(element).popover('show');
+            } else {
+                $(element).popover('destroy');
+            }
+        }, this)
     };
 
     dtaMap.prototype.getSiteStyleFunction = function (type) {
@@ -370,6 +414,91 @@ var dtaMap = (function() {
             cells.push(cell);
         });
         return cells;
+    };
+
+    dtaMap.prototype.changeCellColor = function (cellId, color) {
+        var cell;
+        cell = this.sites.cells.olSource.getFeatureById(Number(cellId));
+        cell.set("color", color);
+    };
+
+    dtaMap.prototype.addPoints = function (pointsArr , file, field, legend) {
+        var layer, source;
+        source = new ol.source.Vector();
+
+        pointsArr.forEach(function (point) {
+            var color;
+            color = this.getColorOfPoint(point[3], legend);
+            source.addFeature(new ol.Feature({
+                geometry: new ol.geom.Point(ol.proj.fromLonLat([Number(point[2]), Number(point[1])])),
+                time: point[0],
+                value: point[3],
+                color: color
+            }));
+        }, this);
+
+        layer = new ol.layer.Vector({
+            source: source,
+            name: field + ' (' + file + ')',
+            style: function (feature) {
+                return new ol.style.Style({
+                    image: new ol.style.Circle({
+                        radius: 3,
+                        fill: new ol.style.Fill({
+                            color: feature.get("color")
+                        }),
+                        stroke: null
+                    })
+                });
+            }
+        });
+
+        if (this.points.mapIndex[field] == undefined) {
+            this.points.mapIndex[field] = {}
+        }
+
+        this.points.mapIndex[field][file] = this.points.layers.getLayers().getLength();
+        this.points.layers.getLayers().push(layer);
+        console.log(this.points.select)
+    };
+
+    dtaMap.prototype.getColorOfPoint = function (value, legend) {
+        // TODO: handle SC type and maybe make legend object
+        var color;
+        legend.forEach(function (item) {
+            if (Number(item.range_min) <= value && Number(item.range_max) > value) {
+                color = item.color;
+            }
+        });
+        return color;
+    };
+
+    dtaMap.prototype.removeAllPoints = function () {
+        this.points.layers.getLayers().clear();
+    };
+
+    dtaMap.prototype.removePoints = function (field, file) {
+        this.points.layers.getLayers().removeAt(this.points.mapIndex[field][file]);
+    };
+
+    dtaMap.prototype.getLayerPoints = function (field, file) {
+        return this.points.layers.getLayers().item(this.points.mapIndex[field][file]);
+    };
+
+    dtaMap.prototype.setPointsVisible = function (field, file) {
+        this.getLayerPoints(field, file).setVisible(true);
+    };
+
+    dtaMap.prototype.setPointsUnvisible = function (field, file) {
+        this.getLayerPoints(field, file).setVisible(false);
+    };
+
+    dtaMap.prototype.getPointsLayerLength = function () {
+        return this.points.layers.getLayers().getLength()
+    };
+
+    dtaMap.prototype.setPointsZindex = function (field, file, zIndex) {
+        this.getLayerPoints(field, file).setZIndex(zIndex);
     };
 
     return dtaMap
