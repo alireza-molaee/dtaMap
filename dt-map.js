@@ -53,7 +53,7 @@ var dtaMap = (function() {
         this.openlayer.view = new ol.View();
 
         this.openlayer.view.on('change:center', function () {
-            $('#dtaMap-openLayerMap').css("opacity", "0.3");
+            // $('#dtaMap-openLayerMap').css("opacity", "0.3");
             var center;
             center = ol.proj.toLonLat(this.openlayer.view.getCenter());
             this.googleMapObject.setCenter(new google.maps.LatLng(center[1], center[0]))
@@ -77,7 +77,7 @@ var dtaMap = (function() {
         });
 
         this.openlayer.map.on('moveend', function () {
-            $('#dtaMap-openLayerMap').css("opacity", "1");
+            // $('#dtaMap-openLayerMap').css("opacity", "1");
         });
 
         openlayerDiv.parentNode.removeChild(openlayerDiv);
@@ -137,37 +137,98 @@ var dtaMap = (function() {
     };
 
     dtaMap.prototype.initPopup = function () {
-        var element, popup;
+        var select, popupElement, popup;
+
         $(this.container).append('<div id="dtaMap-popup"></div>');
-        element = document.getElementById('dtaMap-popup');
+
+        popupElement = document.getElementById('dtaMap-popup');
+
         popup = new ol.Overlay({
-            element: element,
+            element: popupElement,
             positioning: 'bottom-center',
             stopEvent: false,
-            offset: [0, -50]
+            offset: [0, -10]
         });
 
         this.openlayer.map.addOverlay(popup);
-        this.openlayer.map.on('click', function (event) {
-            var feature = this.openlayer.map.forEachFeatureAtPixel(event.pixel,
-                function(feature) {
-                    return feature;
-                });
 
-            if (feature) {
-                console.log('asd')
-                var coordinates = feature.getGeometry().getCoordinates();
-                popup.setPosition(coordinates);
-                $(element).popover({
+        select = new ol.interaction.Select({
+            multi: false
+        });
+
+        select.setHitTolerance(10);
+
+        this.openlayer.map.addInteraction(select);
+
+        function popupPoint(feature) {
+            var coordinates, content;
+            content = '<div style="width: 400px"><p>time: ' + feature.get('time') + '</p>' +
+                '<p>value: ' + feature.get('value') + '</p>'+
+                '<p>field: ' + feature.get('field') + '</p>'+
+                '<p>file: ' + feature.get('file') + '</p></div>';
+            coordinates = feature.getGeometry().getCoordinates();
+            $(popupElement).popover('destroy');
+            setTimeout(function () {
+                $(popupElement).popover({
                     'placement': 'top',
                     'html': true,
-                    'content': 'asdasd'
+                    'content': content
                 });
-                $(element).popover('show');
+                popup.setPosition(coordinates);
+                $(popupElement).popover('show');
+            }, 600);
+        }
+
+
+        function popupCell(feature, self) {
+            console.log(self);
+            var coordinates, centerCord, content;
+            content = '<div style="width: 400px"><p>cellId: ' + feature.get('cellId') + '</p>' +
+                '<p>cellName: ' + feature.get('cellName') + '</p>'+
+                '<p>color: <input type="color" onchange="' + self.getInstanceName() + '.changeCellColor(' + feature.get('cellId') + ', $(this).val())" value="' + feature.get('color') + '"></p>'+
+                '<p>azimuth: ' + feature.get('azimuth') + '</p>'+
+                '<p>beamwidth: ' + feature.get('beamwidth') + '</p></div>';
+
+            centerCord = feature.getGeometry().getCoordinates()[0].length / 2 - 1;
+            coordinates = feature.getGeometry().getCoordinates()[0][centerCord];
+            $(popupElement).popover('destroy');
+            setTimeout(function () {
+                $(popupElement).popover({
+                    'placement': 'top',
+                    'html': true,
+                    'content': content
+                });
+                popup.setPosition(coordinates);
+                $(popupElement).popover('show');
+            }, 600);
+        }
+
+        select.on('select', function(event) {
+            if (event.selected.length === 1) {
+                var feature = event.selected[0];
+                if (feature.get("type") != null) {
+                    if (feature.get("type") === "point") {
+                        popupPoint(feature);
+                    } else if (feature.get("type") === "cell") {
+                        popupCell(feature, this);
+                    }
+                } else {
+                    event.preventDefault();
+                }
             } else {
-                $(element).popover('destroy');
+                $(popupElement).popover('destroy');
             }
-        }, this)
+        }, this);
+
+
+    };
+
+    dtaMap.prototype.getInstanceName = function () {
+        for (var name in window) {
+            if (window[name] == this) {
+                return name;
+            }
+        }
     };
 
     dtaMap.prototype.getSiteStyleFunction = function (type) {
@@ -329,7 +390,8 @@ var dtaMap = (function() {
                 start: cell.start,
                 end: cell.end,
                 azimuth: cell.azimuth,
-                beamwidth: cell.beamwidth
+                beamwidth: cell.beamwidth,
+                type: "cell"
             });
 
             feature.setId(Number(cell.cell_id));
@@ -433,7 +495,10 @@ var dtaMap = (function() {
                 geometry: new ol.geom.Point(ol.proj.fromLonLat([Number(point[2]), Number(point[1])])),
                 time: point[0],
                 value: point[3],
-                color: color
+                color: color,
+                field: field,
+                file: file,
+                type: "point"
             }));
         }, this);
 
